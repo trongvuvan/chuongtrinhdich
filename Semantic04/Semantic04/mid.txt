@@ -1,0 +1,6 @@
+Program A10;
+VAR C:Char;
+
+BEGIN
+ C:= 'A' *10;
+END.
