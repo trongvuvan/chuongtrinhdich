@@ -1,0 +1,7 @@
+Program A14;
+Type Vec = ARRAY(.10.) OF Integer;
+VAr Arr : ARRAY(.120.)OF VEC;
+   B:VEC;
+BEGIN
+   Arr(.5.):= B;
+END.

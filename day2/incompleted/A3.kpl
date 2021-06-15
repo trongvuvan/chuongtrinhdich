@@ -1,0 +1,13 @@
+Program Toto;
+Var  P :  integer; 
+
+Function Fac(n : Integer) : Integer;
+Begin
+     if  n = 1 Then Fac := 1
+     else Fac  := n * Fac(n-1);
+End;
+
+Begin
+   P := Fac(4);
+   Call WRITEI(P);
+End.

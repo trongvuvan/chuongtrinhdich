@@ -1,0 +1,11 @@
+Program Toto;
+Var  S: integer; 
+     n: integer;
+
+Begin
+   S := 3; 
+   n := 5;
+   S  := S * (n + 2);
+   N :=  n + S / 2;
+  Call WRITEI(S);
+End.
